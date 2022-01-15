@@ -1,9 +1,109 @@
 body {
-  background: blue;
+  margin: 1.5em;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
 }
 
-body p {
-  color: firebrick;
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/shoe.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  background-position-x: 20%;
+  background-position-y: 20%;
+}
+
+.logo {
+  color: white;
   font-weight: bold;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header svg {
+  width: 3em;
+  margin-top: -0.6em;
+  cursor: pointer;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: white;
+  height: 100vh;
+  width: 50%;
+  z-index: 999;
+  text-transform: uppercase;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 8em;
+}
+
+nav ul a {
+  color: black;
+  padding: 0.75em 2em;
+  display: block;
+}
+
+nav ul a:hover {
+  background: #a9a7a7;
+}
+
+nav .close {
+  float: right;
+  margin: 2em;
+  width: 2.5em;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 2em;
+  line-height: 3.3rem;
+}
+
+.subhead {
+  font-size: 1.4rem;
+}
+
+section.hero {
+  color: white;
+  height: 90vh;
+}
+
+section.hero .down-arrow {
+  stroke: white;
+  position: absolute;
+  bottom: 2em;
+  width: 1em;
+}
+
+.more-info img {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
