@@ -20,6 +20,7 @@ a {
     z-index: -1;
     background-position-x: 20%;
     background-position-y: 20%;
+    animation: introLoad 10s forwards;
 }
 
 .logo {
@@ -86,12 +87,15 @@ h1 {
 section.hero {
     color: white;
     height: 90vh;
+    animation: moveDown 1s ease-in-out forwards;
+    opacity: 0;
 
     .down-arrow {
         stroke: white;
         position: absolute;
         bottom: 2em;
         width: 1em;
+        animation: moveArrow 1s alternate-reverse infinite;
     }
 }
 
@@ -191,6 +195,7 @@ section.hero {
         margin-bottom: 8em;
 
         img {
+            grid-area: right;
             width: 25em;
         }
 
@@ -223,5 +228,33 @@ section.hero {
 
     .feature {
         gap: 0;
+    }
+}
+
+@keyframes introLoad {
+    from {
+        clip-path: polygon(20% 0%, 80% 0%, 85% 6%, 11% 5%);
+    }
+    to {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
+
+@keyframes moveArrow {
+    from {
+        transform: translateY(-30px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes moveDown {
+    from {
+        transform: translateY(-30px);
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
     }
 }
