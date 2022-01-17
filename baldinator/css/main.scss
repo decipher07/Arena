@@ -11,7 +11,7 @@ body {
     border: 0.1em solid black;
     display: flex;
     margin-bottom: 0.5em;
-    width: 100vw;
+    // width: 100vw;
     justify-content: space-between;
 }
 
@@ -34,13 +34,21 @@ nav {
 
 .combined {
     border: 0.1em solid black;
-    display: flex;
-    margin-bottom: 0.5em;
-    justify-content: space-between;
+    // margin-bottom: 0.5em;
     ul {
+        // border: 0.1em solid black;
         text-decoration: none;
         list-style-type: none;
         display: flex;
+        padding: 0px;
+
+        li {
+            padding: 0px;
+            border: 0.1em solid black;
+            margin-top: 0.2em;
+            margin-left: 0.5em;
+            margin-right: 0.5em;
+        }
     }
 }
 
@@ -65,6 +73,7 @@ nav {
     margin-left: 0.5em;
     margin-right: 0.5em;
     display: flex;
+    justify-content: space-around;
 }
 
 .initialherocontent {
@@ -95,6 +104,7 @@ nav {
     margin-bottom: 0.5em;
     margin-left: 0.5em;
     margin-right: 0.5em;
+    text-align: center;
 }
 
 .toarrangesequentially {
@@ -104,6 +114,7 @@ nav {
     margin-left: 0.5em;
     margin-right: 0.5em;
     display: flex;
+    justify-content: space-around;
 }
 
 .contentinnertoarrangeandimage {
@@ -117,14 +128,16 @@ nav {
 .howtodo {
     margin-top: 0.2em;
     border: 0.1em solid black;
-    margin-bottom: 0.5em;   
+    margin-bottom: 0.5em;
+    text-align: center;
 }
 
 .ending {
     margin-top: 0.2em;
     border: 0.1em solid black;
     margin-bottom: 0.5em;
-    display: flex;   
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .templateheader {

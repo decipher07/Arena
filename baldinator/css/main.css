@@ -13,7 +13,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 0.5em;
-  width: 100vw;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -40,13 +39,6 @@ nav {
 
 .combined {
   border: 0.1em solid black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 0.5em;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .combined ul {
@@ -55,6 +47,15 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0px;
+}
+
+.combined ul li {
+  padding: 0px;
+  border: 0.1em solid black;
+  margin-top: 0.2em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 .surrounding {
@@ -80,6 +81,8 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .initialherocontent {
@@ -110,6 +113,7 @@ nav {
   margin-bottom: 0.5em;
   margin-left: 0.5em;
   margin-right: 0.5em;
+  text-align: center;
 }
 
 .toarrangesequentially {
@@ -121,6 +125,8 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .contentinnertoarrangeandimage {
@@ -135,6 +141,7 @@ nav {
   margin-top: 0.2em;
   border: 0.1em solid black;
   margin-bottom: 0.5em;
+  text-align: center;
 }
 
 .ending {
@@ -144,6 +151,9 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .templateheader {
