@@ -1,0 +1,156 @@
+body {
+  margin: 1em 1em 1em 1em;
+}
+
+.logoimg {
+  width: 5%;
+  height: 5%;
+}
+
+.hero {
+  border: 0.1em solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.5em;
+  width: 100vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: monospace;
+  color: black;
+  font-size: 1.2em;
+  margin-left: 1em;
+  float: left;
+}
+
+nav {
+  border: 0.1em solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.2em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.combined {
+  border: 0.1em solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.5em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.combined ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.surrounding {
+  margin-top: 0.2em;
+  border: 0.1em solid black;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.inital-hero {
+  margin-top: 0.2em;
+  border: 0.1em solid black;
+  margin-bottom: 0.5em;
+}
+
+.outerinitial {
+  margin-top: 0.2em;
+  border: 0.1em solid black;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.initialherocontent {
+  border: 0.1em solid black;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.containgingimage {
+  border: 0.1em solid black;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.working {
+  margin-top: 0.2em;
+  border: 0.1em solid black;
+  margin-bottom: 0.5em;
+}
+
+.maincontnentheading {
+  border: 0.1em solid black;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.toarrangesequentially {
+  border: 0.1em solid black;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contentinnertoarrangeandimage {
+  border: 0.1em solid black;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.howtodo {
+  margin-top: 0.2em;
+  border: 0.1em solid black;
+  margin-bottom: 0.5em;
+}
+
+.ending {
+  margin-top: 0.2em;
+  border: 0.1em solid black;
+  margin-bottom: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.templateheader {
+  border: 0.1em solid black;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+/*# sourceMappingURL=main.css.map */
