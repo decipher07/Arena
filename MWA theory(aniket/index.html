@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignmet 2</title>
+    <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/0160614835.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">FunSoc</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+
+    <!-- Jumbotron -->
+
+      <div class="jumbotron">
+        <h1 class="display-4">Now Recruiting!!!</h1>
+        <p class="lead">To join the FunSoc club fill the form now (only limited entries allowed).</p>
+        <hr class="my-4">
+        <p>Our vision is to make everyone happy and live life to the fullest.</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg btn-outline-danger" href="#" role="button"><i class="fas fa-globe"></i> Visit Website</a>
+        </p>
+      </div>
+
+    <!-- breadcrumb -->
+    <div> 
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">form</li>
+            </ol>
+          </nav>
+    </div>
+
+    <!-- form -->
+
+    <form>
+        <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+          <div class="form-group form-elements">
+            <label for="exampleInputEmail1">Email address</label>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+             <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">@vitstudent.ac.in</span>
+          </div>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+            </div>
+        
+        <div class="form-group form-elements">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+
+        <fieldset class="form-group form form-elements">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0">Year</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    First year
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Second year
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                  <label class="form-check-label" for="gridRadios3">
+                    Third year
+                  </label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <div class="form-elements">
+              <label for="customfile">Upload an essay about yourself in about 100 words.</label>
+            <div class="custom-file ">
+                <input type="file" class="custom-file-input" id="customFile">
+                <label class="custom-file-label" for="customFile">Choose file</label>
+              </div>
+          </div>
+          
+        <div class="form-check form-elements">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+          <button type="submit" class="btn btn-primary submit-btn">Submit</button>
+      </form>   
+    
+</body>
+</html>
