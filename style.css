@@ -1,0 +1,41 @@
+body{
+    font-family: "Montserrat";
+    background-color: #FF8585;
+}
+.container-fluid{
+    padding: 0;
+}
+.navbar{
+    background-color: #FF6363;
+}
+.navbar-brand{
+    font-size: 2.0rem;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 500;
+}
+.nav-item{
+    padding: 0 18px;
+    font-size: 1.2rem;
+}
+
+.breadcrumb{
+    background-color: #FF8585;
+    font-size: 1.2rem;
+    text-decoration: black;
+}
+.breadcrumb-item{
+    text-decoration: #fff;
+}
+.form-row{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.form-elements{
+    width: 30%;
+    margin: 30px auto 30px;
+    padding: 10px 0;
+}
+.submit-btn{
+   margin: 5% 47% 5%;
+}
