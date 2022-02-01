@@ -48,6 +48,11 @@
             color: white;
         }
 
+        .flex-same {
+            display: flex;
+            flex:1;
+        }
+
     </style>
 </head>
 
@@ -56,11 +61,21 @@
 
     <!-- Navbar -->
     <section class="hero-section">
-        <nav aria-label="breadcrumb" class="navbar justify-content-center color-schema-bg">
-            <ol class="breadcrumb m-2">
-                <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Home</a></li>
-                <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Form</a></li>
-            </ol>
+        <nav aria-label="breadcrumb" class="navbar justify-content-space-evenly color-schema-bg">
+            <div class="flex-same justify-content-start">
+                <img class="mx-5" src="./images/bootstrap_image.png" height="10%" width="10%">
+            </div>
+
+            <div class="flex-same justify-content-center">
+                <ol class="breadcrumb m-2">
+                    <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Form</a></li>
+                </ol>
+            </div>
+
+            <div class="flex-same justify-content-end">
+                <a class="btn btn-danger btn-lg mx-5" href="#" role="button"><i class="fas fa-globe"></i> Visit Website</a>
+            </div>
         </nav>
     </section>
 
