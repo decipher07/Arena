@@ -61,27 +61,35 @@
 
     <!-- Navbar -->
     <section class="hero-section">
-        <nav aria-label="breadcrumb" class="navbar justify-content-space-evenly color-schema-bg">
+        <nav aria-label="breadcrumb" class="navbar justify-content-space-evenly color-schema-bg fixed-top">
             <div class="flex-same justify-content-start">
                 <img class="mx-5" src="./images/bootstrap_image.png" height="10%" width="10%">
             </div>
 
             <div class="flex-same justify-content-center">
                 <ol class="breadcrumb m-2">
-                    <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Form</a></li>
+                    <li class="breadcrumb-item"><a href="#name-info" class="text-decoration-none">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#form-section" class="text-decoration-none">Form</a></li>
                 </ol>
             </div>
 
             <div class="flex-same justify-content-end">
-                <a class="btn btn-danger btn-lg mx-5" href="#" role="button"><i class="fas fa-globe"></i> Visit Website</a>
+                <ul class="navbar-nav mr-auto d-flex flex-row">
+                    <li class="nav-item p-2">
+                      <a class="nav-link text-light" href="#">About</a>
+                    </li>
+                    <li class="nav-item p-2">
+                      <a class="nav-link text-light" href="#">Reach Me</a>
+                    </li>
+                </ul>
+                <a class="btn btn-danger btn-lg mx-5 p-3" href="#" role="button"><i class="fas fa-globe"></i> Visit Website</a>
             </div>
         </nav>
     </section>
 
 
     <!-- Jumbotron -->
-    <section class="name-info">
+    <section class="name-info pt-5" id="name-info">
         <div class="jumbotron">
             <h1 class="display-4 text-center m-5">Deepankar Arun Jain</h1>
             <p class="lead text-center"> <strong>I'm Deepankar Jain Backend, ML, BlockChain And Crypto Enthusiast and A Believer In Time working with all Enthusiasm towards My Goals. Let's start scrolling and learn more about me.</strong> </p>
@@ -132,7 +140,7 @@
     </section>
 
     <!-- Form Layout -->
-    <section class="form-section">
+    <section class="form-section" id="form-section">
 
         <div class="row justify-content-center my-5">
             <div class="col-lg-5">
