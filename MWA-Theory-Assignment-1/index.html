@@ -27,6 +27,28 @@
         .body-overflow::-webkit-scrollbar  {
             display: none;
         }
+
+        .breadcrumb-item > a {
+            color: white;
+        }
+
+        .breadcrumb-item + .breadcrumb-item::before {
+            float: left;
+            padding-right: 0.5rem;
+            color: #fafafa;
+            content: var(--bs-breadcrumb-divider, "/") /* rtl: var(--bs-breadcrumb-divider, "/") */;
+        }
+/* 
+        .form-section {
+            border: 2px solid black;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .sinput {
+            transform: scaleY(0.9);
+        } */
+
     </style>
 </head>
 
