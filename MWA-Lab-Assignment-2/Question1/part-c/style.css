@@ -1,0 +1,62 @@
+body {
+    background-image: url('https://picsum.photos/1600/1600');
+    background-size: cover;
+}
+
+.display-4 {
+    text-transform: uppercase;
+    text-align: center;
+    color: navy;
+    text-shadow: 2px 2px 5px blue;
+}
+
+.lead {
+    text-rendering: geometricPrecision;
+    text-align: end;
+}
+
+.display-3 {
+    margin-top: 70px;
+    text-emphasis-position: initial;
+    text-orientation: sideways;
+    text-align: center;
+}
+
+.middlepart {
+    text-indent: 50px;
+    letter-spacing: 5px;
+    line-height: 0.8;
+    word-spacing: 10px;
+    /* white-space: nowrap; */
+}
+
+.display-2 {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.decorations {
+    text-decoration-line: overline;
+    margin: 20px;
+}
+
+.decorations2 {
+    text-decoration-line: line-through;
+}
+
+.decorations3 {
+    text-decoration-line: underline;
+}
+
+.decorations4 {
+    text-decoration-line: overline underline;
+}
+
+.footer {
+    text-align-last: right;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    vertical-align: baseline;
+
+}
+
