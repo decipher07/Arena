@@ -1,0 +1,19 @@
+body {
+    background-image: url("../Question1/part-c/images/landscape.jpg");
+}
+
+.form-control {
+    width: 15rem;
+}
+
+.see-font {
+    font-size: 16px;
+}
+
+.row {
+    margin-top: 1rem;
+}
+
+.form-select {
+    width: 15rem;
+}
