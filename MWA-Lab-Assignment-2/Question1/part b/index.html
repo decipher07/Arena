@@ -27,6 +27,11 @@
             align-items: center;
         }
 
+        .btn-danger:visited {
+            background-color: blue;
+            text-decoration: dashed;
+        }
+
         .btn-primary:hover {
             background-color: rgb(210, 255, 12);
             color: black;
@@ -36,22 +41,18 @@
             background-color: green;
         }
 
-        .btn-danger:visited {
-            background-color: blue;
-            text-decoration: dashed;
-        }
-
         body {
-            background-image: url('https://picsum.photos/1500/1500');
+            background-image: url('../part-c/images/landscape.jpg');
             background-size: cover;
         }
     </style>
 </head>
 <body>
-    <h1 class="text-center"> HARSHIT SHARMA aka CHOTA ZUCKERBERG</h1>
+    <h1 class="text-center">Style for links</h1>
 
     <div class="main-section">
         <div class="main-section-wrapper">
+            <a href="#" class="btn btn-dark" role="button">Link</a>
             <a class="btn btn-primary" href="#" role="button">Hover</a>
             <a class="btn btn-secondary" href="#" role="button">Active</a>
             <a class="btn btn-danger" href="#" role="button">Visited</a>
