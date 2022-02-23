@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page Student Registration</title>
+    <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <style>
+        body{
+            background-color: #DFF8EB;
+        }
+
+
+        .color-schema-bg {
+            background-color: #5AA9E6;
+            font-size: 1.5rem;
+        }
+
+        .checking {
+            object-fit: cover;
+        }
+
+        .body-overflow::-webkit-scrollbar {
+            display: none;
+        }
+
+        .breadcrumb-item>a {
+            color: white;
+        }
+
+        .breadcrumb-item+.breadcrumb-item::before {
+            float: left;
+            padding-right: 0.5rem;
+            color: #fafafa;
+            content: var(--bs-breadcrumb-divider, "/");
+        }
+
+        .lead {
+            color: #1C0F13;
+        }
+
+        .display-4 {
+            color: #1C0F13;
+        }
+
+        .flex-same {
+            display: flex;
+            flex:1;
+        }
+
+        .btn-primary:hover {
+            background-color: #D72638;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <section class="hero-section">
+        <nav aria-label="breadcrumb" class="navbar justify-content-space-evenly color-schema-bg">
+            <div class="flex-same justify-content-start">
+                <img class="mx-5" src="./images/education.png" height="10%" width="10%" style="border-radius: 40px;">
+            </div>
+
+            <div class="flex-same justify-content-center">
+                <ol class="breadcrumb m-2">
+                    <li class="breadcrumb-item"><a href="#name-info" class="text-decoration-none">Home</a></li>
+                    <li class="breadcrumb-item"><a href="./register.html" class="text-decoration-none">Form</a></li>
+                </ol>
+            </div>
+
+            <div class="flex-same justify-content-end">
+                <ul class="navbar-nav mr-auto d-flex flex-row">
+                    <li class="nav-item p-2">
+                      <a class="nav-link text-light" href="#name-info">About</a>
+                    </li>
+                    <li class="nav-item p-2">
+                      <a class="nav-link text-light" href="#name-info">Procedures</a>
+                    </li>
+                </ul>
+                <a class="btn btn-danger btn-lg mx-5 p-3" href="./register.html" role="button"><i class="fas fa-globe"></i>Register Here</a>
+            </div>
+        </nav>
+    </section>
+
+    <section class="name-info" id="name-info">
+        
+            <div class="jumbotron">
+                <h1 class="display-4 text-center m-5">Career Development Cell, VIT Vellore</h1>
+                <p class="lead text-center"> <strong>The CDC centre plays an integral role in creating the illustrious placement record of VIT. It ensures smooth functioning of the placement activities in the campus. The centre further facilitates training activities of the students and makes sure they get placed in the best of both national and international companies.</strong> </p>
+                <p class="lead text-center">Wipro Technologies (Wipro Turbo) made job offers to 278 students with a CTC (cost to company) of 6.50 lakhs per annum from the 2020 graduating batch of Vellore Institute of Technology during the campus recruitment drive held at the VIT campus. This is the highest number of dream offers given by the company to the students from a single institution, and has found a place in the Limca Book of Records in its 2020 edition (9th Time).
+                    This surpasses the earlier record of 238 dream offers made by the same company to the 2019 graduating batch of VIT. This is also the 8th time that the VIT is entering the Limca Book of Records for campus placements. Earlier, VIT has entered into the Limca Book of records in 2009, 2011, 2014, 2015 (two records), in 2016 for the highest number of IT services placements, in 2017 and 2018 for the highest number of dream offers.
+                    </p>
+            </div>
+
+
+         <div class="row justify-content-end my-5 mx-3">
+             <div class="col text-center">
+                 <div class="card w-5 h-10">
+                     <img class="card-img-top checking" src="https://picsum.photos/1500/1200" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">Career Counselling</h5>
+                         <p class="card-text">Career counselling is a domain of counseling that focuses on helping individuals find the right career pathway. In career counselling the individuals receive guidance from professional counselors that provide expert advice on the potentials, Aptitude, motivations, skills and shortcomings with the use of carefully designed assessment tools.</p>
+                     </div>
+                 </div>
+             </div>
+     
+     
+             <div class="col text-center">
+                 <div class="card">
+                     <img class="card-img-top checking" src="https://picsum.photos/1500/1199" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">Training</h5>
+                         <p class="card-text">Corporate training is a set of educational activities provided to employees, typically free of cost. The goal of a corporate training program is to enhance your employees' personal and professional development</p>
+                     </div>
+                 </div>
+             </div>
+     
+     
+             <div class="col text-center">
+                 <div class="card">
+                     <img class="card-img-top checking" src="https://picsum.photos/1500/1201" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">Higher Education Training</h5>
+                         <p class="card-text">Higher education is third level education after you leave school. It takes places at universities and Further Education colleges and normally includes undergraduate and postgraduate study.</p>
+                         
+                     </div>
+                 </div>
+     
+             </div>
+         </div>
+
+         <div class="container-fluid d-flex justify-content-center">
+             <a class="btn btn-primary btn-lg mx-5 p-3" href="./register.html" role="button"><i class="fas fa-globe"></i>Register Here Fast!!</a>
+         </div>
+    </section>
+
+</section>
+
+
+    <script src="../bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
