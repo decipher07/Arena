@@ -27,6 +27,8 @@
         }
 
         $elements = array( 1, 5, 10, 555, 123, 663, 1241, 10231);
+        echo ( print_r($elements));
+        echo ("<br/>");
         $key = $_GET["inputone"];
 
         if (!linearSearch($key, $elements))
