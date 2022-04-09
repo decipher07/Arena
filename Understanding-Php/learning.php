@@ -55,14 +55,40 @@
     <br>
 
     <?php include "header.html" ?>
+
+    <?php 
+
+        $cities = array(
+            "United Kingdom" => "London",
+            "United States" => "Washington",
+            "France" => "Paris",
+            "India" => "Delhi"
+        );
+        // create an ArrayIterator object
+        $iterator = new ArrayIterator($cities);
+        // rewind to beginning of array
+        $iterator->rewind();
+        // iterate over array
+        // print each value
+        while($iterator->valid())
+            {
+            print $iterator->current() . " is in " . $iterator->key();
+            echo"<br>";
+        $iterator->next();
+        } 
+    // $x = array("a" => "red", "b" => "green");
+    // $y = array("c" => "blue", "d" => "yellow");
+    // var_dump($x == $y);
+        // echo "This ", "string ", "was ", "made ", "with multiple parameters."; 
+    ?>
     <!-- <p>HELLO WORLD</p> -->
     <?php include "footer.html" ?>
     <?php 
-        $title = "My First Post";
-        $author = "Mike";
-        $wordCount = 100;
+        // $title = "My First Post";
+        // $author = "Mike";
+        // $wordCount = 100;
 
-        include "article-header.php"
+        // include "article-header.php"
     ?>
     <?php
 
