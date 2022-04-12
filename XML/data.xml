@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theatre>
+
+<movie category="ACTION">
+  <title lang="en">BATMAN</title>
+  <director>Matt Reeves</director>
+  <year>2022</year>
+  <price>30.00</price>
+</movie>
+
+<movie category="CHILDREN">
+  <title lang="en">Harry Potter</title>
+  <director>J K. Rowling</director>
+  <year>2021</year>
+  <price>29.99</price>
+</movie>
+
+<movie category="DOCUMENTARY">
+  <title lang="en">Social Dilemma</title>
+  <director>James McGovern</director>
+  <director>Per Bothner</director>
+  <director>Kurt Cagle</director>
+  <director>James Linn</director>
+  <director>Vaidyanathan Nagarajan</director>
+  <year>2020</year>
+  <price>49.99</price>
+</movie>
+
+<movie category="COMEDY">
+  <title lang="en">Frozen</title>
+  <director>Erik T. Ray</director>
+  <year>2019</year>
+  <price>39.95</price>
+</movie>
+
+</theatre>
