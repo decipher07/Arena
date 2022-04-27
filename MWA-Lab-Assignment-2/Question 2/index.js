@@ -1,6 +1,11 @@
 console.log("hello");
 
 function myFunction() {
+    console.log(document.getElementById("flexRadioDefault1").checked)
+    console.log(document.getElementById("checking").value)
+    console.log(document.getElementById("flexCheckDefault").value)
+    console.log(document.querySelector('#flexCheckDefault:checked').value);
+
     let phoneNumber = document.getElementById("Phone").value;
     let emailId = document.getElementById("E-mail-ID").value;
 
